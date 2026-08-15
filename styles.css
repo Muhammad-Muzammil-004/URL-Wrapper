@@ -1,0 +1,49 @@
+#urlwrap-overlay {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 420px;
+  max-width: 90vw;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  border: 1px solid #454545;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  z-index: 999999999;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 13px;
+  padding: 12px;
+}
+
+.urlwrap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #333333;
+  color: #9cdcfe;
+  font-size: 12px;
+}
+
+.urlwrap-header button {
+  background: none;
+  border: none;
+  color: #aaaaaa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.urlwrap-header button:hover {
+  color: #ffffff;
+}
+
+.urlwrap-body {
+  overflow-wrap: anywhere !important;
+  word-break: break-all !important;
+  white-space: pre-wrap !important;
+  line-height: 1.5;
+  color: #ce9178;
+  max-height: 300px;
+  overflow-y: auto;
+}

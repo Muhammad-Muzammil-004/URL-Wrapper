@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "urlWrap",
+  "version": "1.0",
+  "description": "Press Alt+Z to toggle a wrapped, easy-to-read URL overlay on any web page.",
+  "permissions": ["activeTab"],
+  "commands": {
+    "toggle-url-wrap": {
+      "suggested_key": {
+        "default": "Alt+Z",
+        "mac": "Alt+Z"
+      },
+      "description": "Toggle wrapped URL overlay"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
