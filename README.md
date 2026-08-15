@@ -19,4 +19,4 @@ Long, unformatted URLs in web pages or API documentation can be messy and hard t
 
 1. **Clone or Download** this repository:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/urlWrap.git](https://github.com/Muhammad-Muzammil-004/urlWrap.git)
+   git clone [https://github.com/YOUR-USERNAME/urlWrap.git](https://github.com/Muhammad-Muzammil-004/URL-Wrapper.git)
